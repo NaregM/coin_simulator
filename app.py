@@ -77,6 +77,30 @@ plt.vlines(N_H, 0, 0.025, color = 'dodgerblue', linestyle = '-', label = str(N_H
 sns.distplot(fair_coin_sample, hist = 'True', kde = True, bins = 15, color = 'teal')
 #plt.ylim([0.0, 0.045])
 
+
+st.markdown("""
+                Made by [Nareg Mirzatuny](https://github.com/NaregM)                                     
+Source code: [GitHub](
+                https://github.com/NaregM/coin_simulator) 
+                
+""")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 plt.margins(0.3)
 plt.legend(prop = {'size': 8})
 
